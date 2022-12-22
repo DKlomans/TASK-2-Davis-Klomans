@@ -14,7 +14,7 @@
 <header class="site-header">
     <div class="nav" id="navbar">
         <img class="logo" src="assets/img/BlackLogo 3.png" alt="website logo">
-      
+    
         <a class="link"href="#" title="Ideja">Ideja</a>
         <a class="link"href="#" title="Piesaki Sapni">Piesaki Sapni</a>
         <a class="link"href="#" title="Uzņēmējiem">Uzņēmējiem</a>
@@ -27,12 +27,17 @@
     </div>
 </header>
 
-
-    <div class="video-container">
-        <img class="ripped" src="assets/img/ripped_video_top.png" alt="ripped upper line">
-        <img class="video" src="assets/img/Sparkle Video 1.png" alt="video replaceing image">
-        <img class="play-btn-img" src="assets/img/play_button.png" alt="play button image">
-    </div>
+<div class="video-container-wrapper">
+    <img class="ripped" src="assets/img/ripped-video-top.png" alt="ripped upper line">
+    <img class="ripped-tablet" src="assets/img/ripped-video-top-tablet.png" alt="ripped upper line tablet">
+    <img class="ripped-mobile" src="assets/img/ripped-video-top-mobile.png" alt="ripped upper line mobile">
+        <div class="video-container">    
+            <div class="video-container-inner">
+                <img class="video" src="assets/img/Sparkle Video 1.png" alt="video replaceing image">
+                <img class="play-btn-img" src="assets/img/play_button.png" alt="play button image">
+            </div>
+        </div>
+</div>
 
     <div class="text-container">
         <p>
@@ -44,8 +49,11 @@
         </p>
     </div>
 
+<div class="galery-container">
     <div class="galery">
+        <img class="ripped-galery-top-mobile" src="assets/img/ripped-galery-top-mobile.png" alt="ripped galery  mobile">
         <img class="ripped-galery-top" src="assets/img/ripped-galery-top.png" alt="ripped galery top">
+
         <div class="row">
             <div class="column col-1">
                 <img class="img1" src="assets/img/Zanda_1.png">
@@ -53,6 +61,7 @@
             <div class="column col-2">
                 <img class="img2" src="assets/img/Sibilla_4.png">
             </div>
+            
             <div class="column col-3">
                 <img src="assets/img/Brinuma_meita-15.png">
                 <img src="assets/img/Alina_1 1.png"> 
@@ -60,20 +69,23 @@
             <div class="column-big col-4">
                 <img src="assets/img/Anda_2 1.png">
             </div>
+            <img class="ripped-galery-bot-mobile" src="assets/img/ripped-galery-bot-mobile.png" alt="ripped galery bot mobile">
+            <img class="ripped-galery-bot" src="assets/img/ripped-galery-bot.png" alt="ripped galery bot">
+
         </div> 
-        <img class="ripped-galery-bot" src="assets/img/ripped-galery-bot.png" alt="ripped galery bot">   
      </div>
+</div>
 
     <div class="conntact">
         <div class="conntact-inner">
 
-            <div class="btns-wrap">
-                <div class="btns btn-1">
+            <div class="btns-wrapper">
+                <div class="btn btn-1">
                     <label class="btn-lable">VĒLIES PIEPILDĪT SAVU SAPNI?</label>
                     <button>Sapņotājiem</button>
                 </div>    
 
-                <div class="btns btn-2"> 
+                <div class="btn btn-2"> 
                     <label class="btn-lable">VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</label>
                     <button>Uzņēmējiem</button>
                 </div>    
@@ -100,7 +112,7 @@
                 </div>
                  
             </div>
-                 <div class="btns-wrap-send">
+                 <div class="btns-wrapper-send">
                     <div class="btn-send">
                      <button >Sūtīt</button>
                     </div>
@@ -108,8 +120,9 @@
         </div>
     </div>
 
-    
+ <div class="sponsors-container">
     <div class="sponsors">
+            <img class="ripped-sponsors-top-mobile" src="assets/img/ripped-sponsors-top-mobile.png" alt="ripped upper line mobile"> 
             <img class="ripped-sponsors-top" src="assets/img/ripped7 2.png" alt="ripped upper line"> 
                     <div class="sponsors-imgs">
                         <h1>ATBALSTĪTĀJI</h1>
@@ -124,21 +137,25 @@
                                 <img class="sponsor-img" src="assets/img/Citybee-logo.png" alt="Citybee logo">
                             </div>
                             <div class="column">
-                                <img class="sponsor-img" src="assets/img/Linearis-logo.png" alt="Linearis logo">
+                                <img class="sponsor-img linearis" src="assets/img/Linearis-logo.png" alt="Linearis logo">
                             </div>
                         </div> 
                     </div>
-            <img class="ripped-sponsors-bottom" src="assets/img/ripped7 1.png" alt="ripped upper line">        
     </div>
+    <img class="ripped-sponsors-bottom-mobile" src="assets/img/ripped-sponsors-bot-mobile.png" alt="ripped bottom line mobile">  
+    <img class="ripped-sponsors-bottom" src="assets/img/ripped7 1.png" alt="ripped bottom line ">  
+</div>   
 
  <footer class="site-footer">
     <div class="info">
         <div class="info-inner">
             <div class="row">
-                <div class="logo">
-                    <img src="assets/img/GoldenV2Logo 3.png" alt="golden logo footer">
-                </div>   
                 <div class="column col-1">
+                    <div class="logo">
+                        <img src="assets/img/GoldenV2Logo 3.png" alt="golden logo footer">
+                    </div>   
+                </div>
+                <div class="column col-2">
                     <p><a class="link"href="#" id="tes">Ideja</a></p>
                     <p><a class="link"href="#">Piesaki Sapni</a></p>
                     <p><a class="link"href="#">Uzņēmējiem</a></p>
@@ -146,13 +163,13 @@
                     <p><a class="link"href="#">Sapņus atbalsta</a></p>
                     <p><a class="link"href="#">iedvesmas stāsti</a></p>
                 </div>
-                <div class="column col-2">
+                <div class="column col-3">
                     <h2>Biedrība SparkleHeart</h2>
                     <p>Reģistrācijas nr. 40008293119</p>
                     <p>Banka: SWEDBANK A/S</p>
                     <p>LV52HABA0551047652465</p>
                 </div>
-                <div class="column col-3">
+                <div class="column col-4">
                     <h2 class="name">Juris Gogulis</h2>
                     <p>juris.gogulis@sparkleheart.org</p>
                     <p>+37126890034</p>
@@ -162,15 +179,19 @@
                         <img class="facebook" src="assets/img/facebook-icon.png" alt="facebook icon">
                         <img class="instagram" src="assets/img/instagram-icon.png" alt="instagram icon">
                     </div>
-                    
                 </div>
             </div>
-            <div class="policy-wrap">
-                <h3 class="copyright">© SparkleHeart 2020.<br>Visas tiesības aizsargātas.</h3> 
+            <div class="name-wrapper">
+                <h2 class="name-mobile">Juris Gogulis</h2>
+            </div>
+            <div class="policy-wrapper">
+                <h3 class="copyright">© SparkleHeart 2020.<br class="br"> Visas tiesības aizsargātas.</h3> 
                 <h3 class="policy">Privātuma politika</h3>
             </div>
         </div>
+
     </div>
+    
 </footer>   
     <!-- JavaScript -->
 	<script src="assets/js/theme.js"></script>
